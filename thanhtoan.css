@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: rgb(205, 199, 159);
+}
+
+.button-link {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+a.link-ho {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.link-ho:hover {
+  color: #495057;
+}
+
+
+
+/* header */
+.m-header {
+    background: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-bg {
+    width: 90%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.search {
+    display: flex;
+    align-items: center;
+    border: 3px solid #555;
+    padding: 8px 10px;
+    margin-left: 850px;
+    border-radius: 10px;
+}
+.search input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.search button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+/* menu */
+.menu {
+    background: white;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 102px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.menu li.active a {
+    background: goldenrod;
+    color: white;
+}
+.menu a:hover {
+    background: goldenrod;
+    color: white;
+}
+
+
+
+/* thanhtoan bar */
+.tt-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: goldenrod
+}
+.tt-bar h2 {
+    font-size: 64px;
+    color: white;
+}
+
+
+
+/* thanhtoan */
+.tt-bg {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tt-size {
+    width: 100%;
+    width: 750px;
+    border-radius: 20px;
+    padding: 50px 0 100px 0;
+    margin-right: 180px;
+}
+.tt-form h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-left: 180px;
+}
+.tt-form input {
+    width: 100%;
+    height: 45px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.tt-form button {
+    width: 100%;
+    padding: 15px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.tt-form button:hover {
+    background: #333;
+}
+
+.text-l {
+    display: flex;
+    align-items: center;
+}
+.text-l label {
+    width: 220px;
+    height: 50px;
+    font-size: 24px;
+    color: #333;
+}
+
+
+
+
+/* footer */
+footer {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-size: 18px;
+    padding-bottom: 45px;
+}
+.footer-m {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 50px
+}
+.footer-t {
+    width: 300px;
+    margin-bottom: 20px;
+}
+.footer-t h6 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: #212529;
+}
+.footer-t p, .footer-t a {
+    margin: 0 0 8px;
+    color: #6c757d;
+    text-decoration: none;
+}
+.footer-t a:hover {
+    color: #007bff;
+}
+.footer-line {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #e9ecef;
+    margin-top: 15px;
+}
+

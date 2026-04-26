@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: linear-gradient(to bottom, rgb(196, 167, 0), rgb(142, 123, 14));
+}
+
+.button-link {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+a.link-ho {
+  color: #ffffff;
+  text-decoration: none;
+}
+a.link-ho:hover {
+  color: #495057;
+}
+
+
+
+/* header */
+.m-header {
+    background: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-bg {
+    width: 90%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.search {
+    display: flex;
+    align-items: center;
+    border: 3px solid #555;
+    padding: 8px 10px;
+    margin-left: 850px;
+    border-radius: 10px;
+}
+.search input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.search button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+/* menu */
+.menu {
+    background: white;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 102px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.menu li.active a {
+    background: goldenrod;
+    color: white;
+}
+.menu a:hover {
+    background: goldenrod;
+    color: white;
+}
+
+
+
+/* slider */
+.slidebd {
+    width: 100%;
+    height: 400px;
+    pointer-events: none;
+}
+.slide-me {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.slide {
+    display: flex;
+    justify-content: center;
+    margin: 0 500px;
+    border-radius: 85px 20px 85px 20px;
+    background-color: white;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+.slide.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+.slide img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.slide:hover {
+    transition: filter 0.3s ease;
+    filter: brightness(80%);
+}
+.prev, .next {                  /* P N button */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.4);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.prev {
+    left: 520px;
+}
+.next {
+    right: 520px;
+}
+.prev:hover, .next:hover {
+    background: rgba(0,0,0,0.6);
+}
+
+
+
+/* sell */
+.sell {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.sell2 {
+    text-align: center;
+    width: 400px;
+}
+.sell img {
+    width: 300px;
+    height: auto;
+    border-radius: 15%;
+    margin-bottom: 15px;
+}
+.sell img:hover {
+    transition: filter 0.3s ease;
+    filter: brightness(80%);
+}
+.sell a {
+    display: block;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.sell a:hover {
+    color: #000000;
+}
+.sell-button a {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.sell-button a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+a.link-ho {
+  color: #ffffff;
+  text-decoration: none;
+  height: 40px;
+}
+a.link-ho:hover {
+  color: #495057;
+}
+
+
+
+/* footer */
+footer {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-size: 18px;
+    padding-bottom: 45px;
+}
+.footer-m {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 50px
+}
+.footer-t {
+    width: 300px;
+    margin-bottom: 20px;
+}
+.footer-t h6 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: #212529;
+}
+.footer-t p, .footer-t a {
+    margin: 0 0 8px;
+    color: #6c757d;
+    text-decoration: none;
+}
+.footer-t a:hover {
+    color: #007bff;
+}
+.footer-line {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #e9ecef;
+    margin-top: 15px;
+}
